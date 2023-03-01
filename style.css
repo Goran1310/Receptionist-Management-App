@@ -1,0 +1,207 @@
+body {
+    font-size: 1.1rem;
+    font-family: "Calibri", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+
+  }
+  
+  #navbar {
+    font-family: "Consolas", "Courier New", monospace;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #navbarHeader, #navbarHeaderLink {
+    background-color: #0e8ea8;
+    color: #fff;
+  }
+  
+  #navbarItem {
+    background-color: #83d1e1;
+    color: #212529;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  #logo {
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 0;
+    padding: 0px;
+    margin-top: 5rem;
+    max-width: 20%;
+    max-height: 20%;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: "Calibri";
+    color: #212529;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  h4 {
+    text-align: center;
+    font-family: "Calibri";
+    color: #212529;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+  
+  thead {
+    background-color: #0e8ea8;
+    font-family: "Consolas", "Courier New", monospace;
+    color: #fff;
+  }
+  
+  #staffT {
+    background-color: #83d1e1;
+    color: #212529;
+    font-family: Calibri;
+    vertical-align: text-top;
+  }
+
+  #staffT td:hover {
+    cursor: pointer;
+  }
+  
+  #staffT tr:hover {
+    background-color: #0e8ea8;
+  }
+  
+  table {
+    border-color: #212529;
+    border-width: thin;
+    text-align: center;
+    border-style: solid;
+    margin: auto;
+  }
+  
+  #scheduleTable {
+    position: relative;
+    text-align: center;
+    background-color: #83d1e1;
+}
+#scheduleDeliveryTable {
+    position: relative;
+    text-align: center;
+    background-color: #83d1e1;
+    table-layout: fixed;
+  }
+
+  
+  #staffIn {
+    background-color: #198754;
+    color: #fff;
+    font-family: "Consolas", "Courier New", monospace;
+    flex: 0 0 auto;
+    margin-left: auto;
+  }
+  
+  #staffIn:hover {
+    background-color: #425d50;
+  }
+  
+  #staffOut {
+    background-color: #dc3545;
+    color: #fff;
+    font-family: "Consolas", "Courier New", monospace;
+    flex: 0 0 auto;
+  }
+  
+  #staffOut:hover {
+    background-color: #8a4950;
+  }
+  
+  #addDelivery {
+    background-color: #198754;
+    color: #fff;
+    font-family: "Consolas", "Courier New", monospace;
+    float: right;
+}
+
+#addDelivery:hover {
+    background-color: #425d50;
+}
+#deliveryTable {
+    min-width: 300px;
+    position: relative;
+    text-align: center;
+    background-color: #83d1e1;
+    table-layout: fixed;
+  }
+  
+  #deliveryT td:hover {
+    cursor: pointer;
+  }
+#clearDelivery {
+    position: relative;
+    background-color: #dc3545;
+    color: #fff;
+    font-family: Consolas, "Courier New", monospace;
+    float: right;
+  }
+  
+  #clearDelivery:hover {
+    background-color: #8a4950;
+  }
+  
+  #clock {
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+  }
+  
+  .selected {
+    background-color: #0e8ea8;
+  }
+
+  #deliveryT tr:hover {
+    background-color: #0e8ea8;
+    cursor: pointer;
+  }
+
+  #deliveryT {
+    background-color: #83d1e1;
+  }
+
+  #scheduleDeliveryTableBody {
+    background-color: #83d1e1;
+    font-size: small;
+    width:1%;
+    white-space:nowrap;
+  }
+  
+  .toast-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button-container {
+    display: flex; 
+  }
+
+  .hover-animate {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hover-animate:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
